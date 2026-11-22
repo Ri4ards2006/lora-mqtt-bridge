@@ -1,0 +1,18 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+*.dec.yaml
+secret.yaml
+
+# Binaries & build artifacts
+/lora-mqtt-bridge
+/bin/
+/dist/
+*.out
+coverage.txt
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
